@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: darkblue;
+  color: white; }
+
+.icon-bar {
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+  .icon-bar a {
+    width: 8rem;
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    font-size: 36px;
+    transition: all 1s ease-in-out;
+    border: none; }
+    .icon-bar a:hover {
+      background: black; }
